@@ -7,15 +7,6 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended',
 		'prettier/@typescript-eslint',
 		'plugin:prettier/recommended',
-		'plugin:react/recommended',
-	],
-	overrides: [
-		{
-			files: ['**/*.tsx'],
-			rules: {
-				'react/prop-types': 'off',
-			},
-		},
 	],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
@@ -26,7 +17,7 @@ module.exports = {
 		project: './tsconfig.json',
 		sourceType: 'module',
 	},
-	plugins: ['@typescript-eslint', 'react', 'react-hooks'],
+	plugins: ['@typescript-eslint'],
 	rules: {
 		'@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
 		'@typescript-eslint/explicit-function-return-type': ['off'],
@@ -45,8 +36,6 @@ module.exports = {
 				useTabs: true,
 			},
 		],
-		'react-hooks/exhaustive-deps': 'warn',
-		'react-hooks/rules-of-hooks': 'error',
 		'sort-imports': [
 			'error',
 			{
@@ -58,10 +47,5 @@ module.exports = {
 		],
 		'sort-keys': 'error',
 		'sort-vars': 'error',
-	},
-	settings: {
-		react: {
-			version: 'detect',
-		},
 	},
 }

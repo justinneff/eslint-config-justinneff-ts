@@ -1,6 +1,6 @@
 # ESLint and Prettier Presets for Typescript
 
-These are the ESLint and Prettier settings I like to use for Typescript and Typescript React projects.
+These are the ESLint and Prettier settings I like to use for Typescript projects.
 
 ## Installing
 
