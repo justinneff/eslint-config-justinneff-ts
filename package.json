@@ -1,42 +1,42 @@
 {
-  "name": "eslint-config-justinneff-ts",
-  "version": "2.0.0",
-  "description": "ESLint and Prettier configs for Typescript by Justin Neff",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/justinneff/eslint-config-justinneff-ts.git"
-  },
-  "keywords": [
-    "eslint",
-    "prettier",
-    "typescript"
-  ],
-  "author": "Justin Neff <neffjustin@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/justinneff/eslint-config-justinneff-ts/issues"
-  },
-  "homepage": "https://github.com/justinneff/eslint-config-justinneff-ts#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
-    "eslint": "^7.3.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.5"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
-    "eslint": "^7.3.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.5"
-  }
+	"name": "eslint-config-justinneff-ts",
+	"version": "2.1.0",
+	"description": "ESLint and Prettier configs for Typescript by Justin Neff",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/justinneff/eslint-config-justinneff-ts.git"
+	},
+	"keywords": [
+		"eslint",
+		"prettier",
+		"typescript"
+	],
+	"author": "Justin Neff <neffjustin@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/justinneff/eslint-config-justinneff-ts/issues"
+	},
+	"homepage": "https://github.com/justinneff/eslint-config-justinneff-ts#readme",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^3.4.0",
+		"@typescript-eslint/parser": "^3.4.0",
+		"eslint": "^7.3.1",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"prettier": "^2.0.5",
+		"typescript": "^3.9.5"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "^3.4.0",
+		"@typescript-eslint/parser": "^3.4.0",
+		"eslint": "^7.3.1",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"prettier": "^2.0.5",
+		"typescript": "^3.9.5"
+	}
 }
