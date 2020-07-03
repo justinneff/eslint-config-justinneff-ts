@@ -23,19 +23,6 @@ module.exports = {
 		'@typescript-eslint/explicit-function-return-type': ['off'],
 		'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
 		'no-var': 'error',
-		'prettier/prettier': [
-			'error',
-			{
-				arrowParens: 'always',
-				bracketSpacing: true,
-				jsxSingleQuote: false,
-				semi: false,
-				singleQuote: true,
-				tabWidth: 2,
-				trailingComma: 'all',
-				useTabs: true,
-			},
-		],
 		'sort-imports': [
 			'error',
 			{
