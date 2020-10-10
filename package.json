@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-justinneff-ts",
-	"version": "2.2.0",
+	"version": "2.2.1",
 	"description": "ESLint and Prettier configs for Typescript by Justin Neff",
 	"main": "index.js",
 	"scripts": {
